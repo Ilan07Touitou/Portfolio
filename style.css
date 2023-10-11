@@ -119,7 +119,7 @@ header a {
 
 
 body{
-    background-image: url(img/background_landscape.jpg); /* Définit l'image de fond du site, ainsi que sa taille*/
+    background-image: url(img_index/background_landscape.jpg); /* Définit l'image de fond du site, ainsi que sa taille*/
     background-size: cover;
 }
 
