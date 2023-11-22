@@ -1,0 +1,81 @@
+body{
+    background-color: lightblue;
+    margin: 0;
+}
+header{
+    background-color: cadetblue;
+    border: 3px solid blue;
+    height: 150px;
+    padding: 10px; 
+}
+.img{
+    float: left;
+}
+
+img{
+    width: 200px;
+    margin: 10px;
+}
+.HeadGauche{
+    float: left;
+    
+}
+.HeadDroite{
+    float: right;
+}
+
+
+.Gauche{
+    float: left;
+    width: 50%;
+    background-color: green;
+    margin-bottom: 20px;
+
+}
+.Droite{
+    float: right;
+    width: 50%;
+    background-color: red;
+    margin-bottom: 20px;
+}
+
+table {
+  margin-bottom: 5px;
+  margin-top: 20px;
+  
+}
+
+thead,
+tfoot {
+  background-color:rgb(75, 124, 126);
+  color: #fff;
+  
+}
+
+.TableLigneGrise{
+    background-color: lightgrey;
+
+}
+.TableLigneBlanche{
+    background-color: white;
+}
+.solde{
+    background-color: lightcoral;
+}
+.RecapDroit{
+    float: right;
+    text-align: right;
+    margin-right: 4%;
+}
+label{
+    padding: 20px;
+    line-height: 18px;
+}
+.remarque{
+    margin-left: 5%;
+    padding: 0px;
+}
+.LesBoutons{
+    clear:both;
+}
+
