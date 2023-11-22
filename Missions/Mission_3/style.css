@@ -1,0 +1,70 @@
+body{
+	background-color: lightblue; 
+}
+
+h1{
+	text-align: center;
+	color: green;
+	text-decoration: underline;
+}
+
+h4{
+	text-decoration: underline;
+}
+h5{
+	font-size: 20px;
+}
+
+.boutton_corrige {
+	margin-top: 10px;
+	background: blue;
+	border-radius: 5px;
+	color: white;
+	cursor:pointer;
+	transition: 0.5s;
+  	border-style: solid;
+	width: 60px;
+	height: 60px;
+  
+
+}
+.boutton_effacage {
+	margin-top: 10px;
+	background: blue;
+	border-radius: 5px;
+	color: white;
+	cursor:pointer;
+	transition: 0.5s;
+  	border-style: solid;
+	padding: 0px;
+	width: 60px;
+	height: 60px;
+}
+.boutton_revenir {
+	margin-top: 10px;
+	background: blue;
+	border-radius: 5px;
+	color: white;
+	cursor:pointer;
+	transition: 0.5s;
+  	border-style: solid;
+	padding: 0px;
+	width: 60px;
+	height: 60px;
+}
+
+a{
+	color: white; 
+	text-decoration: none;
+}
+
+.boutton_revenir:hover{
+	background-color: rgb(0, 106, 255); 
+}
+.boutton_corrige:hover{
+	background-color: lightseagreen; 
+}
+.boutton_effacage:hover{
+	background-color: lightcoral; 
+}
+

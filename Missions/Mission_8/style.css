@@ -1,0 +1,119 @@
+body{
+    user-select: none;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 5px solid #232323;
+
+}
+
+.LeConteneur{
+    display: flex;
+    justify-content: space-between;
+}
+  
+
+.LesBoutons {
+    padding: 10px;
+    background-color: rgba(0,0,255, 0.5);
+    width: 60%;
+}
+
+.HomeButton {
+    background-color: lightskyblue;
+    border: 2px solid #003057;
+    border-radius: 30px;
+    box-shadow: #003057 4px 4px 0 0;
+    color: #003057;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 0 18px;
+    line-height: 50px;
+    font-family: Verdana;
+    text-align: center;    
+    transition: 0.1s;
+    width: 300px;
+    margin: 10px;
+    margin-bottom: 20px;
+    
+}
+
+.HomeButton:hover{
+    background-color: #BAE0FF;
+    color: white;
+    transform: translate(4px,4px);
+    box-shadow: none;
+    transition: 0.3s;
+
+}
+
+.SuperBoutons{
+    margin-bottom: 10px;
+    background-color: rgb(237, 102, 102);
+    border: 2px solid gold;
+    border-radius: 30px;
+    box-shadow: red 4px 4px 0 0;
+    color: gold;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 0 18px;
+    line-height: 50px;
+    font-family: Verdana;
+    text-align: center;    
+    transition: 0.1s;
+    width: 300px;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+.SuperBoutons:hover{
+    background-color: gold;
+    color: rgb(237, 102, 102);
+    transform: translate(4px,4px);
+    box-shadow: none;
+    transition: 0.3s;
+
+}
+
+.Super{
+    background-color: rgba(255, 190, 93,1);
+}
+footer{
+    background-color: grey;
+    border: 3px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.LesIframes {
+    padding: 20px;
+    width: 40%;
+    background-color: rgba(255, 0, 0, 0.6)
+}
+
+iframe {
+    width: 100%;
+    height: 35vh;
+    border: none;
+    margin-bottom: 10px;
+    background-color: lightcoral;
+}
+
+label{
+    color:white; 
+    text-decoration: underline;
+}
+
+.RechCara , .RechChaine{
+    margin: 10px;
+    background-color: lightseagreen;
+    line-height: 30px;
+    border: 3px solid grey;
+    border-radius: 5px;
+}

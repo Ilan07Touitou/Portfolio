@@ -1,0 +1,29 @@
+body{
+
+	background:grey;
+}
+
+.boutton {
+	display: block;
+	background: blue;
+	border-radius: 5px;
+	color: white;
+	margin-top: 20px;
+	margin-left:40px;
+	cursor:pointer;
+	padding:50px 50px;
+	transition: 2s;
+	display: block;
+  	border-style: solid;
+
+}
+
+.boutton:hover{
+
+	background: red;
+	color:pink;
+	transform: rotate(3240deg);
+	padding:100px 100px;
+
+
+}

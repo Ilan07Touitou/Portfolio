@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facture</title>
+    <link rel="stylesheet" href="Style.css">
+    <script src="JS.js"></script>
+</head>
+<body>
+    <center>
+    <header> <h1>Facture en JavaScript</h1></header>
+    
+    
+    <!--Première ligne-->
+    <input type="text" class="titre" placeholder="Article : " readonly>   
+    <input type="text" class="titre" placeholder="Prix : " readonly>   
+    <input type="text" class="titre" placeholder="Quantité" readonly>   
+    <input type="text" class="titre" placeholder="Résultat" readonly> 
+    <br>
+    
+    <!--Deuxième ligne-->
+    <input type="text" id="Article" placeholder="Entrez un article">
+    <input type="number" id="A1P" placeholder="0$">
+    <input type="number" id="A1Q" placeholder="0">
+    <input type="number" id="A1R" placeholder="0$"readonly>
+    <br>
+
+    <!--Troisième ligne-->
+        <input type="text" id="Article" placeholder="Entrez un article">
+    <input type="number" id="A2P" placeholder="0$">
+    <input type="number" id="A2Q" placeholder="0">
+    <input type="number" id="A2R" placeholder="0$"readonly>
+    <br>
+    
+    <!--Quatrième ligne-->
+    <input type="text" id="Article" placeholder="Entrez un article">
+    <input type="number" id="A3P" placeholder="0$">
+    <input type="number" id="A3Q" placeholder="0">
+    <input type="number" id="A3R" placeholder="0$" readonly>
+    <br>
+    
+    <input type="text" readonly> <a href="index.html"><button> Réintialiser</button></a> <button onclick="resultat()">Résultat</button> <input type="number" name="RTOTAL" id="RTOTAL" placeholder="0$" readonly>
+    </center>
+</body>
+</html>
