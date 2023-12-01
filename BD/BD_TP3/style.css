@@ -1,0 +1,30 @@
+body{
+    background-color: lightgreen;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+    color: white;
+}
+
+img{
+    width: 800px;
+    margin: 30px;
+    margin-bottom: 80px;
+    margin-left: 90px;
+    
+    
+}
+a{
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: lightblue;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-left: 90px;
+}
+
+a:hover{
+    background-color: rgb(217, 236, 243);
+}
