@@ -1,0 +1,127 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+}
+
+.page {
+    max-width: 800px;
+    margin: 20px;
+    padding: 20px;
+    background-color: lightblue;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+.date{
+    text-decoration: underline;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+h1{
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+}
+
+.facture-info {
+    text-align: right;
+}
+.n0{
+    color: gray;
+    text-decoration: underline;
+}
+#facture-details {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#solde_du{
+    background-color: lightcoral;
+    border-top: 2px solid  rgb(97, 97, 97); border-bottom: 2px solid rgb(97, 97, 97);
+    padding: 4px 5px 4px 25px ;
+}
+#destinataire, #envoie {
+    flex: 1;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+h2{
+    text-decoration: underline;
+}
+
+thead {
+    background-color: #137C8B;
+    color: white;
+    text-decoration: underline;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+
+}
+td{
+    background-color: lightgray;
+}
+
+#totals {
+    background-color: #137C8B;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    color: white;
+}
+img{
+    width: 150px;
+}
+#totals p {
+    margin: 5px 0;
+    
+}
+
+#totals input {
+    width: 50px;
+}
+.AffichTotal{
+    text-decoration: underline;
+}
+
+button {
+    background-color: rgb(98, 137, 150);
+    border: 2px solid #137C8B;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px gray;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    line-height: 1.5;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    user-select: none;
+    width: 400px;
+    margin: 5px;
+    transition: 0.2s;
+}
+
+button:hover {
+    background-color: #137C8B;
+    box-shadow: 2px 2px 15px white;
+    border: 2px solid white;
+    text-shadow:
+    1px 1px 2px black,
+    0 0 1em lightgray,
+    0 0 0.2em lightgray;
+   
+}
