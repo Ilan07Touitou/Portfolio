@@ -1,0 +1,27 @@
+body{
+    background-color: lightskyblue;
+    color: white;
+}
+
+h1{
+    font-weight: bold;
+    font-size : 50px;
+    text-decoration: underline;
+}
+
+h3{
+    text-decoration: underline;
+    font-size: 35px;
+   
+}
+
+a{
+    font-size: 20px;
+    transition: 0.4s;
+}
+
+a:hover{
+    box-shadow: blue 0px 0px 5px;
+    color: rgb(194, 112, 112);
+    padding: 3px;
+}
